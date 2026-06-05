@@ -1,0 +1,19 @@
+.react-calendar {
+  border: none;
+  font-family: inherit;
+}
+
+.react-calendar__tile--active {
+  background: var(--school-primary) !important;
+  color: white !important;
+}
+
+.react-calendar__tile:hover {
+  background: var(--school-accent) !important;
+  color: white;
+}
+
+:root {
+  --school-primary: #004080; /* Example dark blue */
+  --school-accent: #f9a825; /* Example gold */
+}

@@ -1,0 +1,6 @@
+export * from "./student"
+export * from "./class"
+export * from "./teacher"
+export * from "./subject"
+export * from "./teacherAssignment"
+export * from "./result"
