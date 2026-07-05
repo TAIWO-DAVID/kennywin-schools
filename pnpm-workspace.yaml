@@ -1,7 +1,0 @@
-ignoredBuiltDependencies:
-  - core-js
-
-onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
-  - esbuild
-  - sharp
