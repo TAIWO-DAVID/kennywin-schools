@@ -25,7 +25,7 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Mail, label: 'Email', color: 'hover:text-blue-600' },
-    { icon: Heart, label: 'Support', color: 'hover:text-red-600' },
+    { icon: Heart, label: 'Supports', color: 'hover:text-red-600' },
     { icon: Share2, label: 'Share', color: 'hover:text-blue-500' },
     { icon: Headphones, label: 'Support', color: 'hover:text-green-600' },
   ]
