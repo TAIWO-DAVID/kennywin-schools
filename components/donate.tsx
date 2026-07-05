@@ -82,7 +82,7 @@ export default function Donate() {
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               whileHover={{ y: -4 }}
-              className="p-6 rounded-xl bg-gradient-to-br from-blue-50 to-white border border-border hover:border-primary/30 transition-all text-center"
+              className="p-6 rounded-xl bg-linear-to-br from-blue-50 to-white border border-border hover:border-primary/30 transition-all text-center"
             >
               <div className="text-4xl mb-3">{impact.icon}</div>
               <h3 className="font-semibold text-foreground mb-2">{impact.title}</h3>
@@ -99,7 +99,7 @@ export default function Donate() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="p-8 rounded-xl bg-gradient-to-br from-orange-50 to-white border border-border"
+            className="p-8 rounded-xl bg-linear-to-br from-orange-50 to-white border border-border"
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
@@ -133,7 +133,7 @@ export default function Donate() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="p-8 rounded-xl bg-gradient-to-br from-blue-50 to-white border border-border"
+            className="p-8 rounded-xl bg-linear-to-br from-blue-50 to-white border border-border"
           >
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
@@ -181,7 +181,7 @@ export default function Donate() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="p-8 md:p-12 bg-gradient-to-r from-primary/5 to-accent/5 rounded-2xl border border-primary/10"
+          className="p-8 md:p-12 bg-linear-to-r from-primary/5 to-accent/5 rounded-2xl border border-primary/10"
         >
           <h3 className="text-2xl md:text-3xl font-bold text-primary mb-8 text-center">Get in Touch</h3>
           <div className="grid md:grid-cols-2 gap-8">
@@ -262,7 +262,7 @@ export default function Donate() {
           <motion.button
             whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(220, 53, 69, 0.3)' }}
             whileTap={{ scale: 0.95 }}
-            className="px-10 py-4 bg-primary text-primary-foreground rounded-lg font-semibold text-lg hover:bg-opacity-90 transition-all inline-flex items-center gap-2"
+            className="px-10 py-4 bg-primary hover:cursor-pointer text-primary-foreground rounded-lg font-semibold text-lg hover:bg-opacity-90 transition-all inline-flex items-center gap-2"
           >
             <Heart size={20} />
             Support KennyWin Schools
